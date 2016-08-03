@@ -236,6 +236,7 @@ section{
 #contenedor7 p{
 	font-size: 15px;
 	color: white;
+	padding-bottom: 3%;
 }
 /* FIN ESTILOS CONTENEDOR 7 */
 /* ESTILOS CONTENEDOR 8 */
@@ -258,6 +259,7 @@ section{
 #u2cover{
 	width: 100%;
 	padding: 0 15%;
+	margin-top: 5%;
 }
 /* FIN ESTILOS CONTENEDOR 8 */
 /* ESTILOS CONTENEDOR 9 */
