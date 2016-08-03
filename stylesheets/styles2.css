@@ -111,14 +111,14 @@ section{
 	color: rgb(16, 100, 134);
 	font-weight: 400;
 	text-align: center;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
 }
 #u2logo{
 	margin: auto;
-	width: 100%;
+	width: 90%;
 	padding-left: 15%;
 	padding-right: 15%;
-	padding-bottom: 2.5%;
+	padding-bottom: 7.4%;
 }
 /* FIN ESTILOS CONTENEDOR 2 */
 /* DISPOCISION DE COLUMNAS */
@@ -129,7 +129,7 @@ section{
     -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
     -moz-column-gap: 30px; /* Firefox */
     column-gap: 30px;
-    padding-bottom: 5%;
+    padding-bottom: 0;
 }
 .columnas2{
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -138,7 +138,7 @@ section{
     -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
     -moz-column-gap: 20px; /* Firefox */
     column-gap: 20px;
-    padding-bottom: 5%;
+    padding-bottom: 0;
 }
 /* ---------------------- */
 /* ESTILOS CONTENEDOR 3 */
@@ -190,7 +190,7 @@ section{
 	font-family: 'Open Sans', Sans-Serif;
 	font-weight: 300;
 	color: rgb(228, 95, 88);
-	padding-top: 1%;
+	padding-top: 30%;
 	text-align: center;
 }
 #contenedor5 p{
@@ -201,6 +201,7 @@ section{
 }
 #auxtabla{
 	padding: 0 10%;
+	margin-bottom: 2%;
 }
 /* FIN ESTILOS CONTENEDOR 5 */
 /* ESTILOS CONTENEDOR 6 */
@@ -296,7 +297,7 @@ section{
 	margin: auto;
 }
 #mapaseparacion{
-	padding: 1%;
+	padding: 10%;
 }
 #contenedor10 iframe{
 	margin-left: 10%;
@@ -359,7 +360,6 @@ ul.share-buttons li{
 	#contenedor1 h1{
 		color: white;
 		text-align: center;
-		margin-top: 60%;
 	}
 	#tablaventas{
 		margin-top: 5%;
@@ -402,6 +402,13 @@ ul.share-buttons li{
 		text-align: center;
 		padding: 2% 0 3%;
 		width: 100%;
+	}
+	#u2logo{
+		text-align: center;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-bottom: 2%;
 	}
 /* DISPOCISION DE LAS COLUMNAS */
 	.columnas1{
@@ -449,15 +456,11 @@ ul.share-buttons li{
 		padding: 0 5%;
 	}
 /* ESTILOS CONTENEDOR 6 */
-	#contenedor6 #contenedor4{
-		padding: 0;
-		text-align: center;
-		color: rgb(150, 150, 150);
-		font-style: italic;
-		font-family: 'Open Sans', Sans-Serif;
+	#contenedor6{
+		padding: 2% 0;
 	}
-	#contenedor6 #contenedor4 p{
-		color: white;
+	#contenedor6 h3{
+		margin-bottom: 6%;
 	}
 	#video{
 		padding: 0% 0% 3%;
@@ -479,12 +482,12 @@ ul.share-buttons li{
 	#contenedor8{
 		padding: 0 5%;
 	}
-	#logoguns{
-		width: 80%;
-	}
 /* ESTILOS CONTENEDOR 9 Y 10*/
 	#contenedor95{
 		padding: 2% 5%;
+	}
+	#contenedor9 h3{
+		padding: 7.5% 0;
 	}
 	#u2tickets{
 		text-align: center;
@@ -512,5 +515,8 @@ ul.share-buttons li{
 		display: inline;
 		width: 100%;
 		padding-bottom: 3%;
+	}
+	#mapaseparacion{
+		padding: 1%;
 	}
 };
